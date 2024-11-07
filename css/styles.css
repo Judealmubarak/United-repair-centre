@@ -1,0 +1,352 @@
+*{
+   margin: 0; 
+   padding: 0;
+   list-style: none;
+   text-decoration: none;
+}
+
+header {
+    width: 360px; 
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 35px auto;
+    display: block;
+    background-color: #becc83;
+    border-radius: 30px;
+}
+
+header img{
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    color: #993955;
+    padding: 10px;
+    padding-right: 20px;
+    display: block;
+    text-align: center;
+    font-size:0.8em;
+    font-family: "doublebass", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.index hr{
+    border: none;
+    border-top: 6px dashed #993955;
+}
+
+section{
+    background-color: #becc83;
+}
+
+.index h1{
+    padding-top: 30px;
+    max-width: 220px;
+    margin: auto;
+    text-align: center;
+    color: #993955;
+    font-size: 1.5em;
+    font-family: "doublebass", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    font-family: "big-caslon-fb", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #285647;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+    width: 290px;
+    margin: auto;
+}
+
+.index h2{
+    padding-top: 40px;
+    text-align: center;
+    color: #285647;
+    font-size: 2.4em;
+    font-family: "doublebass", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.index section:nth-of-type(2) h3{
+    text-align: center;
+    font-size: 1.8em;
+    font-family: "doublebass", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #d89aac;
+}
+
+.index section:nth-of-type(2) {
+    background-color: #79a596;
+    padding-bottom: 80px;
+}
+
+.index section:nth-of-type(2) p{
+    color: #d89aac;
+    width: 300px;
+    margin: auto;
+}
+
+.index section:nth-of-type(2) article{
+    display: block;
+    background-color: #993955;
+    padding-top: 20px;
+    width: 320px;
+    margin: 40px auto;
+}
+
+.opleidingenenworkshops h1{
+    margin: auto;
+    padding-top: 50px;
+}
+
+.opleidingenenworkshops p{
+    color: #d89aac;
+}
+
+.opleidingenenworkshops section:nth-of-type(2) article{
+    display: block;
+    background-color: #285647;
+    padding-top: 20px;
+    width: 320px;
+    margin: 40px auto;
+}
+
+.opleidingenenworkshops h1{
+    text-align: center;
+    color: #d89aac;
+    font-size: 1.5em;
+    font-family: "doublebass", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.opleidingenenworkshops hr{
+    border: none;
+    border-top: 6px dashed #285647;
+}
+
+.opleidingenenworkshops section {
+    background: #993955;
+}
+
+.opleidingenenworkshops h2{
+    padding-top: 40px;
+    text-align: center;
+    color: #993955;
+    font-size: 2em;
+    width: 200px;
+    margin: auto;
+    font-family: "doublebass", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.opleidingenenworkshops section:nth-of-type(2) {
+    background-color: #becc83;
+}
+
+.opleidingenenworkshops article p{
+    color: #79a596;
+}
+
+.opleidingenenworkshops h3{
+    text-align: center;
+    font-size: 1.5em;
+    width: 200px;
+    margin: auto;
+    font-family: "doublebass", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #79a596;
+}
+
+.opleidingenenworkshops section:nth-of-type(3) article{
+    display: block;
+    background-color: #993955;
+    padding-top: 20px;
+    width: 320px;
+    margin: 40px auto;
+    color: #d89aac;
+}
+
+.opleidingenenworkshops section:nth-of-type(3) {
+    background-color: #79a596;
+    padding-bottom: 80px;
+}
+
+.opleidingenenworkshops section:nth-of-type(3) h3{
+    text-align: center;
+    font-size: 1.8em;
+    font-family: "doublebass", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #d89aac;
+}
+
+.opleidingenenworkshops section:nth-of-type(3) p{
+    color: #d89aac;
+    width: 300px;
+    margin: auto;
+}
+
+.onsinvloed hr{
+    border: none;
+    border-top: 6px dashed #993955;
+}  
+
+.onsinvloed h1{
+    color: #d89aac;
+    margin: auto;
+    text-align: center;
+    font-size: 1.6em;
+    font-family: "doublebass", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+    background-color: #993955;
+    width: 240px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    border-radius: 10px;   
+}
+
+.onsinvloed section:first-of-type{
+    background-color: #79a596;
+    padding-top: 50px;
+}
+
+.onsinvloed section:nth-of-type(2){
+    background-color: #becc83;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.onsinvloed article{
+    display: block;
+    background-color: #285647;
+    width: 320px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.onsinvloed h2{
+    padding-top: 30px;
+    color: #79a596;
+    margin: auto;
+    text-align: center;
+    font-size: 1.7em;
+    width: 180px;
+    margin: auto;
+    font-family: "doublebass", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.onsinvloed article p{
+    color: #79a596;
+}
+
+.onsinvloed p{
+    color: #993955;
+}
+
+.onsinvloed section >h2:first-of-type{
+    color: #993955;
+    padding-bottom: 40px;
+}
+.contactenlocatie section{
+    background-color: #79a596;
+    padding-bottom: 50px;
+}
+
+.contactenlocatie article{
+    display: block;
+    background-color: #993955;
+    width: 320px;
+    margin: auto;
+    padding-bottom: 35px;
+}
+
+.contactenlocatie article p {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: auto;
+    text-align: center;
+    color: #d89aac;
+}
+
+.contactenlocatie hr{
+    border: none;
+    border-top: 6px dashed #285647;
+}
+
+.contactenlocatie h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 2.4em;
+    width: 200px;
+    margin: auto;
+    font-family: "doublebass", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #993955;
+}
+
+.contactenlocatie h2{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 2.4em;
+    width: 200px;
+    margin: auto;
+    font-family: "doublebass", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #d89aac;
+}
+
+.contactenlocatie section:nth-of-type(2){
+    background-color: #993955;
+    padding-bottom:120px;
+}
+
+.contactenlocatie p:last-of-type{
+    color: #d89aac;
+}
+
+.contactenlocatie main > section:first-of-type > p:first-of-type {
+   color: #285647;
+}
+.contactenlocatie article h2{
+    font-size: 1.8em;
+}
+iframe{
+    max-width: 375px;
+}
+
+article a{
+    color: #d89aac;
+    font-size: 1em;
+    margin: auto;
+    font-family: "big-caslon-fb", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
